@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/thalluri",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/rgloro9096",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "storage2": {
+      "ignored": "true",
+      "type": "storage",
+      "connectionId": "localstorage",
+      "dynamicId": null
+    },
+    "storage3": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/thalluri/providers/Microsoft.ServiceLinker/linkers/MyBlobStorageConnectionString_A8DDFBA645, /subscriptions/fba18915-b6c5-401f-86a6-9fb245012d60/resourceGroups/rg-loro/providers/Microsoft.Web/sites/thalluri/providers/Microsoft.ServiceLinker/linkers/MyBlobStorageConnectionString_220175DD6D",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/lorostorage1",
+      "type": "storage.azure",
+      "connectionId": "MyBlobStorageConnectionString"
+    }
+  }
+}
